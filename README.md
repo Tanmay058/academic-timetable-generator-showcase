@@ -51,9 +51,26 @@ The live application uses synthetic demonstration data.
 - Sample timetable sessions: 152
 - Environment: Production Demo Mode
 
+
 ## Screenshots
 
-Screenshots of the application interface will be added here.
+### 1. Dashboard
+![Dashboard](project-screenshots/01-dashboard.png)
+
+### 2. Department Selection
+![Department](project-screenshots/02-department.png)
+
+### 3. Rooms & Labs
+![Rooms and Labs](project-screenshots/03-rooms-and-labs.png)
+
+### 4. Subjects
+![Subjects](project-screenshots/04-subjects.png)
+
+### 5. Faculty
+![Faculty](project-screenshots/05-faculty.png)
+
+### 6. Generate Timetable
+![Generate Timetable](project-screenshots/06-generate.png)
 
 ## Live Demo
 
