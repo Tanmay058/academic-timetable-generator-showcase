@@ -1,92 +1,156 @@
 # Academic Timetable Generator
 
-A web-based academic timetable management and generation system designed to simplify academic scheduling, faculty allocation, and timetable conflict validation.
+**A Web-Based Academic Scheduling and Timetable Generation System**
 
-**Live Demo:** [https://academic-timetable-generator.onrender.com](https://academic-timetable-generator.onrender.com)
+<p align="center">
+  <a href="https://academic-timetable-generator.onrender.com">
+    <img src="https://img.shields.io/badge/Live%20Demo-Visit%20Website-success?style=for-the-badge" alt="Live Demo"/>
+  </a>
+  <img src="https://img.shields.io/badge/Status-Live-brightgreen?style=for-the-badge" alt="Project Status"/>
+  <img src="https://img.shields.io/badge/Mode-Demo-blue?style=for-the-badge" alt="Demo Mode"/>
+</p>
+
+## Live Demo
+
+**Explore the deployed application:**
+
+https://academic-timetable-generator.onrender.com
+
+The application is deployed on Render and runs in Demo Mode with synthetic academic data.
+
+---
 
 ## Project Overview
 
-Academic Timetable Generator is a web application that helps organize academic schedules for college departments. It provides structured timetable management with department-wise scheduling, faculty allocation, and validation of scheduling conflicts.
+Academic Timetable Generator is a web-based application designed to simplify academic timetable preparation and management.
 
-The live application is deployed in Demo Mode with sample academic data.
+The system provides a structured workflow for configuring departments, classrooms, laboratories, subjects, and faculty before generating academic timetables.
+
+It also includes timetable validation to help identify scheduling conflicts and improve academic resource allocation.
 
 ## Key Features
 
-- Department-wise timetable management
-- CE and IT department sample schedules
+- Department configuration and management
+- Classroom and laboratory configuration
+- Subject management
+- Faculty management and allocation
+- Step-by-step timetable generation workflow
 - Automated academic scheduling
-- Faculty allocation and management
-- Subject and classroom organization
 - Timetable conflict validation
-- Practical and theory session scheduling
-- Demo Mode for safe public access
-- Responsive web interface
+- Theory and practical session scheduling
+- Department-wise timetable organization
+- Demo Mode for public access
+
+## Application Workflow
+
+The application follows a structured five-step timetable generation process.
+
+1. Configure Departments
+2. Configure Rooms and Laboratories
+3. Add Subjects
+4. Manage Faculty
+5. Generate Timetable
+
+---
+
+## Screenshots
+
+Explore the application interface and its timetable generation workflow.
+
+### 1. Dashboard
+
+The main dashboard provides access to the application's academic timetable management features.
+
+![Dashboard](./01-dashboard.png.PNG)
+
+### 2. Department Configuration
+
+Configure academic departments and their related information.
+
+![Department Configuration](./02-department.png.PNG)
+
+### 3. Rooms and Laboratories
+
+Manage classrooms and laboratory resources for academic scheduling.
+
+![Rooms and Labs](./03-rooms-labs.png.PNG)
+
+### 4. Subject Management
+
+Configure subjects required for timetable generation.
+
+![Subject Management](./04-subjects.png.PNG)
+
+### 5. Faculty Management
+
+Manage faculty information and academic teaching assignments.
+
+![Faculty Management](./05-faculty.png.PNG)
+
+### 6. Generate Timetable
+
+Generate academic timetables using the configured departments, rooms, subjects, and faculty.
+
+![Generate Timetable](./06-generate.png.PNG)
+
+---
 
 ## Technology Stack
 
-**Frontend**
-
+### Frontend
 - React
 - TypeScript
 - Vite
 - Tailwind CSS
 
-**Backend**
-
+### Backend
 - Node.js
 - Native HTTP Server
 - JSON-based data storage
 
-**Deployment**
-
+### Deployment and Version Control
+- Git
 - GitHub
 - Render
 
-## Demo Information
+## Demo Environment
 
-The live application uses synthetic demonstration data.
+The public application uses synthetic demonstration data.
 
-- Institution: Academic Institute Demo
-- Departments: CE and IT
-- Sample timetable sessions: 152
-- Environment: Production Demo Mode
+| Information | Details |
+|---|---|
+| Institution | Academic Institute Demo |
+| Departments | CE and IT |
+| Sample Timetable Sessions | 152 |
+| Environment | Production |
+| Application Mode | Demo Mode |
+| Hosting Platform | Render |
 
+The live demo is intended for exploration and testing. Server-side data modifications are restricted in Demo Mode.
 
-## Screenshots
+## Project Objectives
 
-### 1. Dashboard
-![Dashboard](01-dashboard.png)
-
-### 2. Department Selection
-![Department](02-department.png)
-
-### 3. Rooms & Labs
-![Rooms and Labs](03-rooms-and-labs.png)
-
-### 4. Subjects
-![Subjects](04-subjects.png)
-
-### 5. Faculty
-![Faculty](05-faculty.png)
-
-### 6. Generate Timetable
-![Generate Timetable](06-generate.png)
-
-## Live Demo
-
-Explore the deployed application:
-
-[https://academic-timetable-generator.onrender.com](https://academic-timetable-generator.onrender.com)
+- Simplify academic timetable preparation.
+- Organize departments, subjects, rooms, and faculty.
+- Support structured timetable generation.
+- Help identify scheduling conflicts.
+- Provide an accessible web-based academic scheduling interface.
 
 ## Source Code
 
-The complete source code is maintained separately in a private repository.
+The complete application source code is maintained in a separate private GitHub repository.
 
-## Project Purpose
+This public repository is intended for project presentation, documentation, screenshots, and live demonstration.
 
-This project demonstrates academic timetable generation, scheduling logic, faculty allocation, and timetable validation through a web-based application.
+## Live Application
+
+**Try the Academic Timetable Generator:**
+
+https://academic-timetable-generator.onrender.com
 
 ---
 
-**Academic Timetable Generator**
-Developed as an academic software project.
+<p align="center">
+  <strong>Academic Timetable Generator</strong><br/>
+  Academic Software Project
+</p>
